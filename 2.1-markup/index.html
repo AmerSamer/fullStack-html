@@ -1,33 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Markup</title>
-    </head>
-    <body>
-        <h1>Hi</h1>
-        <h2>my</h2>
-        <h3>name</h3>
-        <h4>is</h4>
-        <h5>Samer</h5>
-        <h6>Amer</h6>
 
-        <p>
-            On March 6, 1902, the Madrid Foot Ball Club is founded by a group of fans in Madrid, Spain.
-             Later known as Real Madrid, the club would become the most successful European football (soccer)
-              franchise of the 20th century.
-        </p>
-        <b>
-            This text is bold
-        </b>
-        <p style="font-style: italic;">Learning website</p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Markup</title>
+</head>
 
-        <a href="https://www.ynet.co.il">Go to 'Ynet' Home page.</a>
-        <p></p>
-        <img src="https://www.gstatic.com/webp/gallery3/1.png">
-        <p></p>
-        <img src="images/vangogh.jpg">
-    </body>
+<body>
+
+    <!-- The <nav> element defines a set of navigation links. -->
+    <nav>
+        <a href="/html/">HTML</a> |
+        <a href="/css/">CSS</a> |
+        <a href="/js/">JavaScript</a> |
+        <a href="/jquery/">jQuery</a>
+    </nav>
+   
+    <!-- The <section> element defines a section in a document. -->
+    <section>
+        <!-- The <aside> element defines some content aside from the content it is placed in (like a sidebar).
+            The <aside> content should be indirectly related to the surrounding content. -->
+        <aside>
+            <h1>Hi</h1>
+            <h2>my</h2>
+            <h3>name</h3>
+            <h4>is</h4>
+            <h5>Samer</h5>
+            <h6>Amer</h6>
+
+            <p>
+                On March 6, 1902, the Madrid Foot Ball Club is founded by a group of fans in Madrid, Spain.
+                Later known as Real Madrid, the club would become the most successful European football (soccer)
+                franchise of the 20th century.
+            </p>
+        </aside>
+    </section>
+    <b>
+        This text is bold
+    </b>
+    <p style="font-style: italic;">Learning website</p>
+
+    <a href="https://www.ynet.co.il">Go to 'Ynet' Home page.</a>
+    <p></p>
+    <img src="https://www.gstatic.com/webp/gallery3/1.png">
+    <p></p>
+    <!-- The <figure> tag specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.
+        The <figcaption> tag defines a caption for a <figure> element. The <figcaption> element can be placed as the first or as the last child of a <figure> element.
+        The <img> element defines the actual image/illustration.  -->
+    <figure>
+        <img src="images/vangogh.jpg" alt="Trulli" style="width:100%">
+        <figcaption>Fig.1 - Vincent van Gogh, 1889, The Starry Night.</figcaption>
+    </figure>
+    
+    <!-- The <footer> element defines a footer for a document or section. -->
+    <footer>
+        <p>Author: Hege Refsnes</p>
+        <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+    </footer>
+
+</body>
+
 </html>
