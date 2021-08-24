@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>float_layout</title>
+</head>
+
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    .header  {
+        width: 700px;
+        font-size: large;
+        color: black;
+        background-color: orange;
+        margin: 10px auto;
+        text-align: center;
+    }
+ 
+    .sidemain{
+        width: 700px;
+        height: 30rem;
+        margin: auto auto;
+    }
+
+    .side {
+        width: 29%;
+        height: 100%;
+        color: black;
+        background-color: green;
+        padding: 20px;
+        text-align: left;
+        float: left;
+    }
+    .main {
+        width: 69%;
+        height: 100%; 
+        font-size: large;
+        color: black;
+        background-color: purple;
+        padding: 20px;
+        text-align: right;
+        float: right;
+    }
+    .footer {
+        width: 700px;
+        font-size: large;
+        color: black;
+        background-color: blue;
+        margin: 10px auto;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <div class="header">
+        header
+    </div>
+    <div class="sidemain">
+        <div class="side">
+            side
+        </div>
+        <div class="main">
+            main
+        </div>
+    </div>
+    <div class="footer">
+        footer
+    </div>
+</body>
+
+</html>
