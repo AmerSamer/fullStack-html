@@ -126,7 +126,7 @@ margin: 10px 10px;
 #showcase{
     background: url('../img/showcase.jpg') no-repeat
     center center/cover ;
-    height: 600px;
+    height: 650px;
 }
 #showcase .showcase-content{
     color: #fff;
@@ -151,7 +151,8 @@ margin: 10px 10px;
 #home-info .info-img{
     float: left;
     width: 50%;
-    background: url('../img/photo-1.jpg') no-repeat ;
+    background: url('../img/photo-1.jpg') no-repeat
+    center center/cover ;
     min-height: 100%;
 }
 
