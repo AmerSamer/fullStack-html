@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>float_layout</title>
+</head>
+
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    body{
+        background-color: rgb(93, 93, 238);
+    }
+    .flat {
+        text-align: center;
+    }
+    .round {
+        text-align: center;
+    }
+    .flatGhost {
+        text-align: center;
+    }
+    .roundGhost {
+        text-align: center;
+    }
+    /* .flat .button{
+        float: left;
+    } */
+
+    .flat .btnR {
+        color: #fff;
+        background-color: green;
+        font-size: 36px;
+    }
+    .flat .btnR:hover{
+        background-color: rgb(4, 70, 4);
+    }
+    .flat  .btnC {
+        color: #fff;
+        background-color: red;
+        font-size: 26px;
+    }
+    .flat .btnC:hover{
+        background-color: rgb(155, 7, 7);
+    }
+    .flat .btnS {
+        color: #fff;
+        background-color: blue;
+        font-size: 16px;
+    }
+    .flat .btnS:hover{
+        background-color: rgb(10, 10, 146);
+    }
+    .round .btnR {
+        color: #fff;
+        background-color: orange;
+        font-size: 36px;
+        border-radius: 25px;
+    }
+    .round .btnR:hover{
+        background-color: rgb(160, 104, 1);
+    }
+    .round  .btnC {
+        color: #fff;
+        background-color: yellow;
+        font-size: 26px;
+        border-radius: 20px;
+    }
+    .round .btnC:hover{
+        background-color: rgb(163, 163, 2);
+    }
+    .round .btnS {
+        color: #fff;
+        background-color: gray;
+        font-size: 16px;
+        border-radius: 10px;
+    }
+    .round .btnS:hover{
+        background-color: rgb(48, 48, 48);
+    }
+    .flatGhost .btnR {
+        color: #fff;
+        background-color: rgb(93, 93, 238);
+        font-size: 36px;
+        border-color:green ;
+    }
+    .flatGhost .btnR:hover{
+        background-color: rgb(4, 70, 4);
+    }
+    .flatGhost  .btnC {
+        color: #fff;
+        background-color: rgb(93, 93, 238);
+        font-size: 26px;
+        border-color:red ;
+    }
+    .flatGhost .btnC:hover{
+        background-color: rgb(155, 7, 7);
+    }
+    .flatGhost .btnS {
+        color: #fff;
+        background-color: rgb(93, 93, 238);
+        font-size: 16px;
+        border-color:blue ;
+    }
+    .flatGhost .btnS:hover{
+        background-color: rgb(10, 10, 146);
+    }
+    .roundGhost .btnR {
+        color: #fff;
+        background-color: rgb(93, 93, 238);
+        font-size: 36px;
+        border-radius: 25px;
+        border-color: orange;
+    }
+    .roundGhost .btnR:hover{
+        background-color: rgb(160, 104, 1);
+    }
+    .roundGhost  .btnC {
+        color: #fff;
+        background-color: rgb(93, 93, 238);
+        font-size: 26px;
+        border-radius: 20px;
+        border-color: yellow;
+    }
+    .roundGhost .btnC:hover{
+        background-color: rgb(163, 163, 2);
+    }
+    .roundGhost .btnS {
+        color: #fff;
+        background-color: rgb(93, 93, 238);
+        font-size: 16px;
+        border-radius: 10px;
+        border-color: gray;
+    }
+    .roundGhost .btnS:hover{
+        background-color: rgb(48, 48, 48);
+    }
+</style>
+
+<body>
+    <div class="flat">
+        <h2>Flat</h2>
+        <button class="btnR">Register</button>
+        <button class="btnC">Clear</button>
+        <button class="btnS">Submit</button>
+    </div><br>
+    <div class="round">
+        <h2>Round</h2>
+        <button class="btnR">Register</button>
+        <button class="btnC">Clear</button>
+        <button class="btnS">Submit</button>
+    </div><br>
+    <div class="flatGhost">
+        <h2>Flat Ghost</h2>
+        <button class="btnR">Register</button>
+        <button class="btnC">Clear</button>
+        <button class="btnS">Submit</button>
+    </div><br>
+    <div class="roundGhost">
+        <h2>Round Ghost</h2>
+        <button class="btnR">Register</button>
+        <button class="btnC">Clear</button>
+        <button class="btnS">Submit</button>
+    </div>
+</body>
+
+</html>
