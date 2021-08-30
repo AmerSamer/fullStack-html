@@ -12,19 +12,24 @@
     <title>First Web Page</title>
 </head>
 <style>
+    :root{
+        --primary-color: #fff;
+        --secondary-color: #333;
+        --background-color: gray;
+    }
     body {
-        background-color: gray;
+        background-color: var(--background-color);
         margin: 0;
         text-align: center;
         font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
     }
 
     .foreword h2 {
-        color: oldlace;
+        color: var(--primary-color);
     }
 
     .about p {
-        color: white;
+        color: var(--primary-color);
         font-family: 'Dosis', sans-serif;
     }
 
@@ -46,7 +51,7 @@
 
     .container {
         padding: 2px 1rem;
-        background-color: darkslategray;
+        background-color: var(--secondary-color);
     }
 
     .container p u {
@@ -55,7 +60,7 @@
 
     .navbar {
         overflow: hidden;
-        background-color: #333;
+        background-color:  var(--secondary-color);;
         position: sticky;
         bottom: 0;
         width: 100%;
