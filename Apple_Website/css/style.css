@@ -3,4 +3,505 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* Navbar */
+#navbar{
+    background: #333333;
+    color: #fff;
+    overflow: auto;
+    /* padding-left: 12.5%; */
+    width: 100%;
+    height: 3.3vw;
+    position: fixed;
+    z-index: 100;
+    /* padding: 5px; */
+    /* float: center; */
+
+}
+#navbar a{
+    color: rgb(202, 202, 206);
+}
+#navbar .apple{
+    /* background-size: 16px 44px; */
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/ac/globalnav/6/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__cxwwnrj0urau_large.svg");
+    background-position: center center;
+    width: 16px;
+    height: 3.3vw;
+}
+#navbar .search{
+    background-size: 18px 88px ;
+    background-repeat: no-repeat;
+    background-image: url('../img/globalnav.svg'); 
+    background-position: 2vw 0.4vh;
+    /* padding-left: 100%; */
+    width: 17px;
+    height: 2.3vw;
+}
+#navbar .bag{
+    background-size: 17px 44px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/ac/globalnav/6/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_bag_image__bmix8075eg4i_large.svg");
+    background-position: center center;
+    width: 17px;
+    height: 3.3vw;
+}
+#navbar ul{
+    list-style: none;
+    float: left;  
+    padding-left: 11.5vw;
+    /* padding: 100% ; */
+}
+#navbar ul li{
+    float: left;  
+    /* padding: 10% ; */
+}
+#navbar ul li a{
+    display: block;
+    padding: 12.5px 34px;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 400;
+}
+#navbar ul li a:hover,
+#navbar ul li a.current{
+    background: none;
+    color: rgb(240, 240, 240);
+}
+
+.nav-bottom{
+    background: #F5F5F7;
+    color: #1D1D1F;
+    overflow: auto;
+    padding-top: 1.4vw;
+    padding: 12.5px 14px;
+    padding-left: 16%;
+    width: 100%;
+    height: 3.2vw;
+    font-size: 14px;
+    font-weight: 400;
+}
+.nav-bottom a{
+    /* background: #F5F5F7;
+    color: #1D1D1F;
+    overflow: auto;
+    padding-top: 1.4vw;
+    padding: 12.5px 14px;
+    padding-left: 16%;
+    width: 100%;
+    height: 3.2vw;
+    font-size: 14px; */
+    text-decoration: none;
+}
+.nav-bottom a:hover{
+    /* background: none;
+    color: rgb(240, 240, 240); */
+    text-decoration: underline;
+}
+
+/* Showcase */
+#showcase{
+    background: url('../img/photo-1.jpg') no-repeat
+    center center/cover ;
+    height: 575px;
+    margin-bottom: 10px;
+}
+
+#showcase .showcase-content{
+    color: #333;
+    text-align: center;
+    padding-top: 43px;
+}
+#showcase .showcase-content h1{
+    font-size: 55px;
+    line-height: 1.0em;
+    color: rgb(29, 29, 31);
+}
+#showcase .showcase-content h2{
+    font-size: 30px;
+    line-height: 1.7em;
+    color: rgb(29, 29, 31);
+    font-weight: normal;
+}
+#showcase .showcase-content h3{
+    font-size: 17px;
+    /* line-height: 2.2em; */
+    color: rgb(134, 134, 139);
+    font-weight: normal;
+}
+#showcase .showcase-content a{
+    font-size: 23px;
+    line-height: 2.2em;
+    padding: 25px;
+    text-decoration: none;
+}
+#showcase .showcase-content a:hover{
+    font-size: 23px;
+    line-height: 2.2em;
+    padding: 25px;
+    text-decoration: underline;
+}
+
+/* Page-2 */
+#page-2{
+    background: url('../img/photo-2.jpg') no-repeat
+    center center/cover ;
+    height: 565px;
+    margin-bottom: 10px;
+}
+
+#page-2 .page-2-content{
+    color: #333;
+    text-align: center;
+    padding-top: 35px;
+}
+#page-2 .page-2-content h1{
+    font-size: 50px;
+    line-height: 1.5em;
+    color: #F5F5F7;
+}
+#page-2 .page-2-content h2{
+    font-size: 30px;
+    line-height: 1.0em;
+    color: #F5F5F7;
+    font-weight: normal;
+}
+#page-2 .page-2-content h3{
+    /* font-size: 50px; */
+    /* line-height: 1.5em; */
+    padding-top: 15px;
+    color: rgb(134, 134, 139);
+    font-weight: normal;
+}
+#page-2 .page-2-content a{
+    font-size: 23px;
+    line-height: 2.2em;
+    padding: 25px;
+    text-decoration: none;
+}
+
+#page-2 .page-2-content a:hover{
+    font-size: 23px;
+    line-height: 2.2em;
+    padding: 25px;
+    text-decoration: underline;
+}
+
+/* Page-3 */
+#page-3{
+    background: url('../img/hero.jpg') no-repeat
+    center center/cover ;
+    height: 600px;
+    margin-bottom: 10px;
+}
+
+#page-3 .tvplus-logo{
+    background-size: 108px 43px;
+    background-repeat: no-repeat;
+    background-image: url("../img/tvplus_logo.png");
+    background-position: center center;
+    /* border: 2px solid green; */
+
+    position: absolute;
+    margin: 18% 42%;
+    padding: 2%;
+    padding-left: 150px;
+}
+#page-3 .see-logo{
+    background-size: 346px 174px;
+    background-repeat: no-repeat;
+    background-image: url("../img/see_logo.png");
+    background-position: center center;
+    /* border: 2px solid green; */
+
+    position: absolute;
+    margin: 23% 30%;
+    padding: 7% 25%;
+    /* padding-top: 150px; */
+    padding-left: 150px;
+
+}
+#page-3 .stream-now{
+    font-size: 23px;
+    line-height: 2.2em;
+
+    position: absolute;
+    margin: 35% 42%;
+    padding: 7% 25%;
+
+    padding: 25px;
+    /* border: 2px solid green; */
+    text-decoration: none;
+}
+#page-3 .stream-now:hover{
+    font-size: 23px;
+    line-height: 2.2em;
+    padding: 25px;
+    text-decoration: underline;
+}
+
+/* Page-4 */
+#page-4{
+    /* background: url('../img/hero.jpg') no-repeat
+    center center/cover ; */
+    padding-left :10px;
+    padding-right :1px;
+    width: 99%;
+    height: 600px;
+    margin-bottom: 10px;
+}
+/* Page-4 -- Grid*/
+#page-4 .container{
+    display: grid;
+    grid-template-areas: 
+    'img1 img2';
+    /* 'img3 img4'
+    'img5 img6'; */
+    gap:1rem;
+    position: relative;
+    
+  }
+  #page-4 .box img{
+    width:100%;
+    height: 600px;
+    transition: all 0.4s;
+  }
+  
+  #page-4 .box img:hover{
+    /* transform:scale(1.1) */
+  }
+  #page-4 .box-1{
+    grid-area: img1;
+
+  }
+  #page-4 .box-2{
+    grid-area: img2;
+  }
+  #page-4  h1{
+    font-size: 45px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    width: 49%;
+        position: absolute;
+        color: #F5F5F7;
+         /* z-index: 100; */
+         /* border: 3px solid red; */
+         margin: -60px 140px;
+         padding: 100px;
+       
+  }
+  #page-4  h2{
+    font-size: 17px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    width: 49%;
+    position: absolute;
+    color: #F5F5F7;
+     /* z-index: 100; */
+     /* border: 3px solid red; */
+    margin: 0px 80px;
+    padding: 100px;
+   
+}
+#page-4 .box-1 .learn{
+    font-size: 17px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    position: absolute;
+    color: #F5F5F7;
+     /* z-index: 100; */
+     /* border: 3px solid red; */
+     /* display: block; */
+     padding: 12.5px 40px;
+     float: left;
+     margin: 140px 180px;
+     /* padding: 30px; */
+     text-decoration: none;
+    
+     /* border: 3px solid blue; */
+   
+}
+#page-4 .box-1 .learn:hover{
+    /* background: none;
+    color: rgb(240, 240, 240); */
+    text-decoration: underline;
+}
+
+#page-4 .box-1 .buy{
+    font-size: 17px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+
+    position: absolute;
+    color: #F5F5F7;
+     /* z-index: 100; */
+     /* border: 3px solid red; */
+     /* display: block; */
+     padding: 12.5px 20px;
+     float: left;
+     margin: 140px 350px;
+     text-decoration: none;
+   
+}
+#page-4 .box-1 .buy:hover{
+    /* background: none;
+    color: rgb(240, 240, 240); */
+    text-decoration: underline;
+}
+#page-4 .box-2 .learn{
+    font-size: 17px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+
+    position: absolute;
+    color: #F5F5F7;
+     /* z-index: 100; */
+     /* border: 3px solid red; */
+     /* display: block; */
+     padding: 10px 10px;
+     float: left;
+     margin: 140px 200px;
+     text-decoration: none;
+   
+}
+#page-4 .box-2 .learn:hover{
+    /* background: none;
+    color: rgb(240, 240, 240); */
+    text-decoration: underline;
+}
+#page-4 .box-2 .buy{
+    font-size: 17px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+
+    position: absolute;
+    color: #F5F5F7;
+     /* z-index: 100; */
+     /* border: 3px solid green; */
+     /* display: block; */
+     /* padding: 10px 10px;
+     float: left;
+     margin: 150px 350px; */
+     padding: 12.5px 20px;
+     float: left;
+     margin: 140px 335px;
+     text-decoration: none;
+   
+}
+#page-4 .box-2 .buy:hover{
+    /* background: none;
+    color: rgb(240, 240, 240); */
+    text-decoration: underline;
+}
+
+  
+  /* Page-5 */
+#page-5{
+    /* background: url('../img/hero.jpg') no-repeat
+    center center/cover ; */
+    margin :5px;
+    width: 99%;
+    height: 600px;
+    margin-bottom: 10px;
+    padding-left :10px;
+    padding-right :5px;
+}
+/* Page-5 -- Grid*/
+#page-5 .container{
+    display: grid;
+    grid-template-areas: 
+    'img3 img4';
+    /* 'img3 img4'
+    'img5 img6'; */
+    gap:1rem;
+  }
+  #page-5 .box img{
+    width:100%;
+    height: 600px;;
+    transition: all 0.4s;
+  }
+  
+  #page-5 .box img:hover{
+    /* transform:scale(1.1) */
+  }
+/* .box-1{
+    grid-area: img1;
+  }
+  .box-2{
+    grid-area: img2;
+  } */
+  #page-5 .box-3{
+    grid-area: img3;
+  }
+  #page-5 .box-4{
+    grid-area: img4;
+  }
+  /* .box-5{
+    grid-area: img5;
+  }
+  .box-6{
+    grid-area: img6;
+  } */
+
+  /* Page-6 */
+#page-6{
+    /* background: url('../img/hero.jpg') no-repeat
+    center center/cover ; */
+    width: 99%;
+    height: 600px;
+    margin-bottom: 10px;
+    padding-left :10px;
+    padding-right :1px;
+}
+
+/* Page-6 -- Grid*/
+#page-6 .container{
+    display: grid;
+    grid-template-areas: 
+    /* 'img1 img2'
+    'img3 img4' */
+    'img5 img6';
+    gap:1rem;
+  }
+  #page-6 .box img{
+    width:100%;
+    height: 600px;;
+    transition: all 0.4s;
+  }
+  
+  #page-6 .box img:hover{
+    /* transform:scale(1.1) */
+  }
+/* .box-1{
+    grid-area: img1;
+  }
+  .box-2{
+    grid-area: img2;
+  }
+  .box-3{
+    grid-area: img3;
+  }
+  .box-4{
+    grid-area: img4;
+  } */
+  #page-6 .box-5{
+    grid-area: img5;
+  }
+  #page-6 .box-6{
+    grid-area: img6;
+  }
+
+  /* Footer */
+#main-footer{
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-weight: 450;
+    background: #F5F5F7;
+    color: #86868B;
+    padding: 15px;
+    padding-left: 13%;
+    padding-right: 13%;
 }
