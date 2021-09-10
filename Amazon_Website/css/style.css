@@ -31,21 +31,47 @@ html,body{
 
 }
 .all-serach{
-    width: 10px;
-    height: 3rem;
+    width: 50px;
+    height: 50px;
     text-decoration: none;
     background: #b8b8b9;
     font-size: 14px;
+    margin: -50px 0px;
+}
+#navbar input{
+    /* width: 100px; */
+    /* zoom: 1; */
+    height: 50px;
+    margin-top: 0px;
+    margin-left: 50px;
+    /* border: green 2px solid ; */
+}
+#navbar .fa{
+    height: 50px;
+    /* margin-bottom: 50px; */
+    margin-top: -50px;
+    background: orange ;
+    margin-left: 710px;
 }
 .deliver-to{
     /* font-size: 10px; */
     /* width: 50px; */
+    line-height: 0.8rem;
+    text-align: left;
     width: 6rem;
     height: 3rem;
-    border: #fff 2px solid;
-    margin: 0% auto;
+    font-weight: 300;
+    /* border: #fff 2px solid; */
+    /* margin: 0% auto; */
     /* font-size: 50px; */
 }
+/* .flag-nav{
+    background: url('../images/Flag-USA.jpg') no-repeat center center/cover;
+    margin: -10% auto;
+    margin: -10% auto;
+    width: 50px;
+    height: 40px;
+} */
 #navbar-2 .logo div {
     width: 20px;
     height: 2px;
@@ -58,22 +84,15 @@ html,body{
     color: #fff;
 }
 
-#navbar .logo{
-    background: url('../images/amazon-logo.JPG') no-repeat center center/cover;
-    float: left;
-    width: 10rem;
-    height: 2.9rem;
-    margin: 0% auto;
-    /* padding-top: 20px;
-    padding-left: 20px; */
-
-    /* border: 3px solid aqua; */
-    /* width: 150px;
-    height: 200x; */
-    /* position: fixed; */
-    float: left;
-    padding-top: 10px;
-    padding-left: 2%;
+.sprite-nav-logo {
+	background: url('../images/nav-sprite-global.png') no-repeat -10px -51px;
+	width: 96px;
+	height: 29px;
+    margin: 12px auto;
+}
+.search-div{
+    width: 700px;
+    height: 50px;
 }
 #navbar ul,
 #navbar-2 ul{
