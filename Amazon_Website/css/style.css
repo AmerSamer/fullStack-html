@@ -124,9 +124,10 @@ html,body{
     /* font-size: 1.3rem; */
     font-weight: bold;
     /* text-align: center; */
-    border-radius: 25px;
+    /* border-radius: 25px; */
     grid-row: 1/ span 2;
     width: 4.1rem;
+    margin-top: 20px;
         /* border: springgreen 2px solid; */
 
     /* grid-column: 1/span1; */
@@ -161,8 +162,9 @@ html,body{
     /* grid-column: 3 / span 3; */
     grid-row: 1 / span 1;
     width: 30rem;
-    height: 74%;
+    height: 75%;
     margin-left: 0%;
+    margin-top: 20px;
 }
 
 .item4 {
@@ -177,7 +179,7 @@ html,body{
     grid-row: 2 / span 2;
     width: 30rem;
     margin-left: 0%;
-    margin-top: -18%;
+    margin-top: -12%;
 
     /* width: 150px;*/
     height: 125%; 
@@ -193,11 +195,10 @@ html,body{
     border-radius: 5px;
     /* grid-column: 4 / span 4; */
     grid-row: 1 / span 2;
-    /* width: 150px;
-    height: 150px; */
+    height: 110%;
     width: 15.5rem;
     margin-left: 0%;
-    margin-top: 50px;
+    margin-top: 35px;
 }
 #page-1 .item1 img{
     /* width: 6rem;
@@ -297,4 +298,47 @@ html,body{
     font-size: 14px;
     font-weight: 400;
     text-decoration: none;
+}
+
+.btn-qty{
+    float: left;
+    padding: 5px;
+    border-radius: 13px;
+    /* background: gray; */
+    font-weight: 500;
+    margin-top: 10px;
+}
+.btn-add{
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 13px;
+    background: yellow;
+    font-weight: 500;
+    border: yellow;
+    /* gap: 10px; */
+}
+.btn-buy{
+    float: left;
+    margin-top: 10px;
+    width: 100%;
+    padding: 8px;
+    border-radius: 13px;
+    background: orange;
+    font-weight: 500;
+    border: orange;
+    
+}
+.btn-add-list{
+    float: left;
+    width: 100%;
+    margin-top: 15px;
+    padding: 8px;
+    text-align: left;
+    /* border-radius: 13px; */
+    /* background: rgb(58, 58, 56); */
+    font-weight: 500;
+    /* border: rgb(22, 22, 19); */
+    /* gap: 10px; */
 }
