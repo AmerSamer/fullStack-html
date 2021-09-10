@@ -65,13 +65,27 @@ html,body{
     /* margin: 0% auto; */
     /* font-size: 50px; */
 }
-/* .flag-nav{
+.flag-nav{
     background: url('../images/Flag-USA.jpg') no-repeat center center/cover;
-    margin: -10% auto;
-    margin: -10% auto;
-    width: 50px;
-    height: 40px;
-} */
+    margin-top: -30px;
+    margin-left: 770px;
+    width: 30px;
+    height: 20px;
+}
+.sprite-cart {
+	background: url('../images/nav-sprite-global.png') no-repeat -218px -337px;
+	width: 41px;
+	height: 28px;
+    margin-top: -35px;
+    margin-left: 20px;
+}
+.cart{
+    /* width: 41px;
+	height: 28px; */
+    /* font-size: 15px; */
+    margin-top: -37px;
+    margin-left: 52px;
+}
 #navbar-2 .logo div {
     width: 20px;
     height: 2px;
